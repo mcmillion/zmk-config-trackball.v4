@@ -20,7 +20,7 @@
 
 // Mouse speed increased
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // default: 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 8     // default: 10
 //#include <dt-bindings/zmk/pointing.h>
 
 / {
@@ -45,7 +45,7 @@
         FRONT_RIGHT {
             bindings = <
 		&mkp MB5					&mkp MB4
-		&kp LC(UP)					&mo FRONT_SCROLL
+		&mo FRONT_SCROLL				&kp LC(UP)
 		&mkp RCLK	&mkp LCLK    &mkp MCLK		&kp ESC
                /* Orientation (Front/Backward)   Handiness L/R     */
    		  &bt BT_CLR  &bt BT_NXT   &studio_unlock	
