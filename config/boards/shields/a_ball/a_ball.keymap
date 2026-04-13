@@ -45,7 +45,7 @@
         FRONT_RIGHT {
             bindings = <
 		&mkp MB5					&mkp MB4
-		&mo FRONT_SCROLL				&kp LC(UP)
+		&lt FRONT_SCROLL F11				&kp LC(UP)
 		&mkp RCLK	&mkp LCLK    &mkp MCLK		&kp ESC
                /* Orientation (Front/Backward)   Handiness L/R     */
    		  &bt BT_CLR  &bt BT_NXT   &studio_unlock	
