@@ -44,9 +44,9 @@
 	// Layer 0
         FRONT_RIGHT {
             bindings = <
-		&mo FRONT_SCROLL				&mkp LCLK
-		&mkp MCLK					&mkp MCLK 				
-		&mkp RCLK	      &kp A    &kp B		&kp ESC
+		&mkp MB5					&mkp MB4
+		&kp LC(UP)					&mo FRONT_SCROLL
+		&mkp RCLK	&mkp LCLK    &mkp MCLK		&kp ESC
                /* Orientation (Front/Backward)   Handiness L/R     */
    		  &bt BT_CLR  &bt BT_NXT   &studio_unlock	
 			/*&kp N1  &kp N2  &kp N3*/
